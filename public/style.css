@@ -1,0 +1,87 @@
+body {
+    font-family: Georgia, serif;
+    font-color:#7851A9;
+    text-align: center;
+    background-color: #ffff;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+    background-image: url(back.png);
+    background-size:cover;
+  }
+  
+  h1 {
+    color: #ffff;
+  }
+  #imageInput {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color:#ffff;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  #uploadButton {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  #outputText {
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+  }
+  
+  #readButton {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  #searchButton {
+    background-color: #ff9900;
+    color: white;
+  }
+  
+  #copyButton {
+    background-color: #dc3545;
+    color: white;
+  }
+  button{
+    height: 50px;
+    font-size: large;
+  }
+  
